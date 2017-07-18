@@ -1,27 +1,59 @@
-#title
-{
-	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
-		font-size: 40px;
+body {
+    background-color: black;
+    background-image: url(clock.jpg);
+    background-size: cover;
+    size: cover;
+}
+
+@font-face { 
+	font-family: AngryBirds; src: url('angrybirds-regular.ttf'); 
+}
+
+@font-face{
+		font-family: tarpino; src: url('Tarpino.ttf');
+}
+
+@font-face{
+		font-family: circo; src: url('circo.ttf');
+}
+
+
+h1 {
+	font-family: AngryBirds;
+    color: black;
+    margin-left: 40%;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+h2 {
+	font-family: tarpino;
+	color:rgb(105,105,105);
+	margin-left: 40%;   
+    font-size: 30px;
+}
+
+.btn {
+	font-family: circo;
+	height: 70px;
+	padding: 10px;
+	font-size: 25px;
+	margin-left: 60%;
+	margin-top:100px;
+	background: grey;
+	color:white;
+	border-radius: 10px;
+	transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 
 }
 
-.inputs
-{
-	font-family: 'Walter Turncoat';
-		font-size: 24px;
-
-
-}
-body
-{
-	text-align: center;
-	background-color: rgb(18,134,236);
+.btn:hover{
+	background:black;
 }
 
-input[type="text"]
-{
-    font-size:24px;
-    	font-family: 'Nova Flat';
-
-
+.btn:active{
+	background-color: black;
+	transform: translateY(4px);
+	box-shadow: 0 0 8px 0 black;
 }
