@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="create_page.css">
+<script src="create_page_js"></script>
+</head>
+<body>
+	<h1>Create An Event</h1>
+	<form>
+		<label>Event Name:</label><br>
+		<input type="text" id="eventName" required=""></input><br><br><br>
+		<label>How many people will be in this event?</label><br>
+		<input type="number" id="numberOfPeople" required=""></input><br><br><br>
+		<label>How long would you like this event to take place?</label>
+		<select id="eventTime" name="eventTime">
+			<option value="thisWeek">This Week</option>
+			<option value="nextWeek">Next Weeks</option>
+			<option value="next2Week">Next 2 Weeks</option>
+			<option value="next3Week">Next 3 Weeks</option>
+			<option value="nextMonth">Next Month</option>
+		</select><br><br><br>
+		<input type="submit" value="Submit"></input>
+		<button class="cancel" onclick="window.location='file:///C:/Users/richa/Desktop/Schedule%20Scrambler/schedule_scrambler/main_page.html';">Cancel</button>
+	</form>
+<!-- 	<button class="save" onclick="emptyEvent(this)">Save</button> -->
+
+</body>
+</html>

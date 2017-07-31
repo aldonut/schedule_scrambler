@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url(clock.jpg);
+    background-image: url(flip_clock.jpg);
     background-size: cover;
     size: cover;
 }
@@ -21,7 +21,7 @@ body {
 h1 {
 	font-family: AngryBirds;
     color: black;
-    margin-left: 40%;
+    margin-left: 10%;
     font-size: 100px;
     font-weight: bold;
 }
@@ -29,7 +29,7 @@ h1 {
 h2 {
 	font-family: tarpino;
 	color:rgb(105,105,105);
-	margin-left: 40%;   
+	margin-left: 7%;   
     font-size: 30px;
 }
 
@@ -38,9 +38,9 @@ h2 {
 	height: 70px;
 	padding: 10px;
 	font-size: 25px;
-	margin-left: 60%;
+	margin-left: 30%;
 	margin-top:100px;
-	background: grey;
+	background: rgb(169,169,169);
 	color:white;
 	border-radius: 10px;
 	transition-duration: 0.4s;
@@ -49,11 +49,11 @@ h2 {
 }
 
 .btn:hover{
-	background:black;
+	background:grey;
 }
 
+
 .btn:active{
-	background-color: black;
 	transform: translateY(4px);
 	box-shadow: 0 0 8px 0 black;
 }

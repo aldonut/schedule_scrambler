@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<link rel="stylesheet" type="text/css" href="main_page.css">
+</head>
+<body>
+
+<h1>Schedule Scrambler</h1>
+<h2>A Website That Saves Everyone's Time</h2>
+
+<button class="button btn">START</button>
+</body>
+</html>
